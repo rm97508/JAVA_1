@@ -1,10 +1,20 @@
-package entrada_processamento_saida;
+import java.util.Scanner;
 
-public class ex33 {
+public class Ex33DW {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    public static void main(String[] args) {
+        Scanner ler = new Scanner(System.in);
 
-	}
+        char sexo;
 
+        do {
+            System.out.printf("Digite o sexo (F ou M): ");
+            sexo = ler.next().charAt(0);
+        } while (sexo != 'F' && sexo != 'M');
+
+        System.out.print(sexo);
+
+        ler.close();
+
+    }
 }
