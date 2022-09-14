@@ -1,10 +1,14 @@
-package entrada_processamento_saida;
+public class Ex38F {
 
-public class ex38 {
+    public static void main(String[] args) {
+            int i = 1;
+            int soma = 0;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+           for (i = 1; i <= 100; i++){
+            soma = soma + i;
+           }
 
-	}
-
+           
+           System.out.println("A soma de 1 a 100 é: " + soma);
+    }
 }
