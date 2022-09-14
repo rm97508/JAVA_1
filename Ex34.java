@@ -1,10 +1,17 @@
-package entrada_processamento_saida;
+public class Ex34W {
 
-public class ex34 {
+    public static void main(String[] args) {
+        int i = 1;
+        int j = 1;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+        while(i <= 10) {
+            while(j <= 10) {
+                System.out.println(i + " x " + j + " = " + (i * j));
+                j++;
+            }
 
-	}
-
+            i++;
+            j = 1;
+        }
+    }
 }
